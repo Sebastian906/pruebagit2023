@@ -14,11 +14,12 @@
     "student",
     "course"
   ],
-  "author": "Sebastian Salazar Güiza",
+  "author": "Sebastian Salazar Güiza, Paula Andrea Cano Buitrago, Valentina Acosta Lopez",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.9",
     "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
     "mongoose": "^6.9.1"
   }
 }

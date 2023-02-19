@@ -8,6 +8,7 @@ const helper = require("../helpers/general.helper");
 
 exports.createComputador = (req, res, next) => {
     let com = {
+        code : req.body.code,
         procesador: req.body.procesador,
         memoriaRam: req.body.memoriaRam,
         discoDura: req.body.discoDura,
@@ -43,6 +44,7 @@ exports.createComputador = (req, res, next) => {
 
 exports.updateComputador = (req, res, next) => {
     let com = {
+        code : req.body.code,
         procesador: req.body.procesador,
         memoriaRam: req.body.memoriaRam,
         discoDura: req.body.discoDura,

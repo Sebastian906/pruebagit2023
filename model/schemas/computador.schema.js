@@ -1,5 +1,6 @@
 /** packages */
 const mongoose = require("mongoose");
+const validator = require("mongoose-unique-validator");
 
 /** Schema creation */
 const computadorSchema = new mongoose.Schema({
@@ -34,4 +35,5 @@ const computadorSchema = new mongoose.Schema({
 });
 
 /** schema exportation */
+computadorSchema.plugin(validator);
 module.exports = computadorSchema;

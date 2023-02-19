@@ -8,6 +8,7 @@ const helper = require("../helpers/general.helper");
 
 exports.createMarca = (req, res, next) => {
     let mrc = {
+        code : req.body.code,
         nombre: req.body.nombre,
         logo: req.body.logo,
         servicio: req.body.servicio,
@@ -40,6 +41,7 @@ exports.createMarca = (req, res, next) => {
 
 exports.updateMarca = (req, res, next) => {
     let mrc = {
+        code : req.body.code,
         nombre: req.body.nombre,
         logo: req.body.logo,
         servicio: req.body.servicio,
