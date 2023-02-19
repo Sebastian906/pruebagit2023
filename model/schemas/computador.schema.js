@@ -6,7 +6,7 @@ const validator = require("mongoose-unique-validator");
 const computadorSchema = new mongoose.Schema({
     marca_id:{
         type: "String",
-        unique: true
+        required: true
     },
     code:{
         type: "String",

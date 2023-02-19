@@ -62,6 +62,7 @@ exports.createComputador = (req, res, next) => {
 /** actualizar */
 exports.updateComputador = (req, res, next) => {
     let com = {
+        marca_id : req.body.marca_id,
         code : req.body.code,
         procesador: req.body.procesador,
         memoriaRam: req.body.memoriaRam,
