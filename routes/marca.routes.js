@@ -6,7 +6,7 @@ module.exports = (app) => {
         controller.getAll(req, res, next);
     });
 
-    app.get("/marca/bycode/:code",(req, res, next) => {
+    app.get("/marca/byname/:name",(req, res, next) => {
         console.log("getting marca by code");
         controller.getByCode(req, res, next);
     });
@@ -20,7 +20,6 @@ module.exports = (app) => {
     });
 
     app.delete("/marca",(req, res, next) => {
-        
         controller.deleteMarca(req, res, next);
     });
 };

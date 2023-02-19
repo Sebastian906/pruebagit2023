@@ -1,14 +1,11 @@
 {
     "db-connections":{
         "mongodb":{
-            "host": "cluster0.anqwl.mongodb.net",
-            "user": "work-group-3",
-            "password": "FOTIFdOEkIgtgMBc",
-            "dbname": "AcademicDB"
+            "host": "cluster0.cjkhtgl.mongodb.net",
+            "user": "PaulaAcano",
+            "password":"yVd5GxQHZkzXtP33",
+            "dbname": "AcademicDBDos"
         }
-    },
-    "secretkeys":{
-        "crypto-js":"kg'>$HQH4+e*WC9"
     },
     "server-port": 3000
 }

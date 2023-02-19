@@ -4,6 +4,14 @@ const validator = require("mongoose-unique-validator");
 
 /** Schema creation */
 const computadorSchema = new mongoose.Schema({
+    marca_id:{
+        type: "String",
+        unique: true
+    },
+    code:{
+        type: "String",
+        required: true,
+    },
     procesador:{
         type: "String",
         required: true
@@ -25,7 +33,7 @@ const computadorSchema = new mongoose.Schema({
         required: true
     },
     entradasUSB:{
-        type: "String",
+        type: "Number",
         required: true
     },
     tarjetaGrafica:{

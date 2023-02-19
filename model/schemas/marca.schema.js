@@ -4,6 +4,10 @@ const validator = require("mongoose-unique-validator");
 
 /** Schema creation */
 const marcaSchema = new mongoose.Schema({
+    rut:{
+        type: "String",
+        required: true
+    },
     nombre:{
         type: "String",
         required: true
